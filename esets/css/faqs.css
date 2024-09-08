@@ -92,3 +92,76 @@ nav ul li a:hover {
    background: linear-gradient(45deg, #ffb300, #ffcc00); 
    cursor: pointer; 
  }
+
+ /* ---------------main---------- */
+.heading{
+    background-color: #ff5722;
+    bottom: 100px;
+} 
+ 
+ .heading h1 {
+    font-size: 75px;
+    margin: 50px;
+    padding-left: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: #0d611a;
+    /* position: absolute; */
+}
+
+/* main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin: 20;
+    top: 100px;
+    /* top: 50px; */
+
+.faq {
+    width: 90%;
+    background: #e5e492;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    /* justify-content: left; */
+    /* align-content: center; */
+    margin: 90px;
+    /* bottom: 990px; */
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item h2 {
+    font-size: 1.25rem;
+    color: #ff5722;
+}
+
+.faq-item p {
+    margin: 0.5rem 0;
+}
+
+.faq-item a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ff9800;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
