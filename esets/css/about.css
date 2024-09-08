@@ -105,11 +105,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: #2d2820;
 }
 
 header {
-    background: #4CAF50;
+    background: #0f5211;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -137,11 +137,11 @@ main {
 .about {
     max-width: 1000px;
     margin: 0 auto;
-    background: #a8d98a;
+    background: #caeab6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 20px;
-    margin: 100PX;
+    margin: 120PX;
     font-size: 39PX;
 }
 
@@ -195,3 +195,43 @@ font-size: 32PX;
     width: 100%;
     bottom: 0;
 } */
+
+/* Footer styles */
+.footer {
+    background-color: #125019;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #c6f0c7;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #e4eecc;
+     }

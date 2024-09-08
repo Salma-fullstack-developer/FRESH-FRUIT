@@ -95,38 +95,37 @@ nav ul li a:hover {
 
  /* ---------------main---------- */
 .heading{
-    background-color: #ff5722;
+    /* background-color: #ff5722; */
     bottom: 100px;
+    border-radius: 50px 5px 10px 30px solid black;
 } 
  
  .heading h1 {
-    font-size: 75px;
-    margin: 50px;
+    font-size: 56px;
+    margin: 120px;
     padding-left: 300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     color: #0d611a;
     /* position: absolute; */
+  
 }
 
-/* main {
+ main {
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
     margin: 20;
     top: 100px;
-    /* top: 50px; */
-
+    }
 .faq {
-    width: 90%;
-    background: #e5e492;
+    width: 100%;
+    background: #d3f9bd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    /* justify-content: left; */
-    /* align-content: center; */
-    margin: 90px;
-    /* bottom: 990px; */
+    margin: 10px;
+    margin-top:-145px;
 }
 
 .faq-item {
@@ -165,3 +164,42 @@ nav ul li a:hover {
     width: 100%;
     bottom: 0;
 } */
+ /* Footer styles */
+.footer {
+    background-color: #125019;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #c6f0c7;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #e4eecc;
+     }
