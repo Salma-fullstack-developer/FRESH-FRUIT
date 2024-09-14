@@ -93,7 +93,7 @@ nav ul li a:hover {
 }
 /* ---------------main------------ */
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
 .product {
@@ -133,7 +133,7 @@ margin: 100px;
     }
     .buy-now {
         background: #4CAF50;
-        color: #bbbbbb;
+        color: #f5f2f2;
         border: none;
         padding: 10px 20px;
         font-size: 1em;
@@ -143,6 +143,7 @@ margin: 100px;
     
     .buy-now:hover {
         background: #ecb357;
+        color: #333;
     }
     /* footer {
         background: #333;
